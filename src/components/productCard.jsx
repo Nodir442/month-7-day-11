@@ -1,8 +1,8 @@
 import React from "react";
-export const ProductCard = ({ img, title, brand, color,price }) => {
+export const ProductCard = ({ img, title, brand, color, price }) => {
   return (
-    <div className="cursor-pointer p-5">
-      <img className="mb-4 w-[165px]" src={img} alt="Product Img" />
+    <div className="cursor-pointer rounded-xl bg-slate-200 p-5 duration-300 hover:rounded-3xl hover:bg-slate-300 hover:shadow-2xl">
+      <img className="mb-4 w-[180px] rounded-xl" src={img} alt="Product Img" />
       <div className="grid">
         <p className="text-base font-normal">{brand}</p>
         <p className="text-base font-normal">{title}</p>
